@@ -23,6 +23,11 @@ variable "role_name" {
   default     = ""
 }
 
+variable "role_description" {
+  description = "IAM role description"
+  default     = ""
+}
+
 variable "role_path" {
   description = "Path of IAM role"
   default     = "/"
